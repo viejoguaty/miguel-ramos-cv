@@ -15,7 +15,7 @@ export function HeroSection() {
         <div className="mx-auto max-w-3xl text-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-slate-700 bg-slate-800/60 px-4 py-1.5 text-xs font-medium text-slate-300 sm:text-sm">
             <span className="h-2 w-2 rounded-full bg-emerald-400" />
-            Based in Melbourne, VIC 🇦🇺 • Available for Full-Time &amp; Sponsorship Roles
+            Melbourne, VIC 🇦🇺 
           </span>
 
           <h1 className="mt-6 text-balance text-4xl font-bold leading-tight tracking-tight text-slate-50 sm:text-5xl lg:text-6xl">

@@ -50,6 +50,7 @@ export function SiteHeader() {
         <div className="hidden md:block">
           <a
             href="/miguel-ramos-cv.pdf"
+            target="_blank"
             className="inline-flex items-center gap-2 rounded-lg bg-emerald-400 px-4 py-2 text-sm font-semibold text-slate-900 transition-colors hover:bg-emerald-300"
           >
             <Download className="h-4 w-4" />
@@ -85,6 +86,7 @@ export function SiteHeader() {
             <li className="pt-2">
               <a
                 href="/miguel-ramos-cv.pdf"
+                target="_blank"
                 onClick={() => setOpen(false)}
                 className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-emerald-400 px-4 py-2 text-sm font-semibold text-slate-900"
               >

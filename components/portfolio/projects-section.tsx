@@ -36,24 +36,28 @@ export function ProjectsSection() {
               </ul>
 
               <div className="mt-6 flex items-center gap-3">
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-400 px-3.5 py-2 text-sm font-semibold text-slate-900 transition-colors hover:bg-emerald-300"
-                >
-                  <ExternalLink className="h-4 w-4" />
-                  Live Demo
-                </a>
-                <a
-                  href={project.repo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 rounded-lg border border-slate-700 px-3.5 py-2 text-sm font-semibold text-slate-200 transition-colors hover:border-slate-600 hover:bg-slate-800"
-                >
-                  <GithubIcon className="h-4 w-4" />
-                  GitHub Repo
-                </a>
+                {project.demo !== "" &&
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-400 px-3.5 py-2 text-sm font-semibold text-slate-900 transition-colors hover:bg-emerald-300"
+                  >
+                    <ExternalLink className="h-4 w-4" />
+                    Live Demo
+                  </a>
+                }
+                {project.repo !== "" &&
+                  <a
+                    href={project.repo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 rounded-lg border border-slate-700 px-3.5 py-2 text-sm font-semibold text-slate-200 transition-colors hover:border-slate-600 hover:bg-slate-800"
+                  >
+                    <GithubIcon className="h-4 w-4" />
+                    GitHub Repo
+                  </a>
+                }
               </div>
             </article>
           ))}

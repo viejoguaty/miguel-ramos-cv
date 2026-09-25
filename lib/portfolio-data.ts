@@ -4,9 +4,9 @@ export const PROFILE = {
   title: "Senior Frontend / Web Developer",
   location: "Melbourne, VIC, Australia",
   email: "m.ramos.guaty@gmail.com",
-  phone: "+61 403 747 520",
-  github: "https://github.com/",
-  linkedin: "https://www.linkedin.com/",
+  phone: "+61403747520",
+  github: "https://github.com/viejoguaty",
+  linkedin: "https://www.linkedin.com/in/miguelramosg",
 }
 
 export const NAV_LINKS = [
@@ -25,11 +25,11 @@ export type SkillGroup = {
 export const SKILL_GROUPS: SkillGroup[] = [
   {
     title: "Languages & Frameworks",
-    skills: ["React.js", "TypeScript", "JavaScript (ES6+)", "Next.js", "Vue.js", "Tailwind CSS"],
+    skills: ["React.js", "TypeScript", "JavaScript (ES6+)", "Next.js", "Vue.js", "Tailwind CSS", "AngularJS", "Boostrap", "Material UI"],
   },
   {
     title: "E-Commerce & CMS",
-    skills: ["Shopify (Liquid)", "Drupal 7/8/9", "WordPress"],
+    skills: ["Shopify (Liquid)", "Drupal 7/8/9", "WordPress", "Joomla"],
   },
   {
     title: "Architecture & Workflow",
@@ -72,10 +72,11 @@ export const EXPERIENCE: Experience[] = [
     summary:
       "Led front-end development across SaaS and e-commerce products, architecting scalable component systems and mentoring junior developers.",
     highlights: [
-      "Architected reusable React + TypeScript component libraries adopted across multiple client products.",
-      "Delivered high-performance e-commerce storefronts with Shopify Liquid and headless React frontends.",
-      "Integrated REST and GraphQL APIs, optimizing data-fetching and Core Web Vitals.",
-      "Mentored developers and established code review, testing, and CI/CD standards.",
+      "Architected reusable React + TypeScript component libraries and dynamic import structures adopted across multiple client products.",
+      "Delivered high-conversion e-commerce storefronts and custom purchasing flows using Shopify Liquid, Theme Kit, and Sass.",
+      "Modernized legacy web applications by refactoring AngularJS architectures into modular ReactJS microservices environments.",
+      "Integrated REST APIs (GET, POST, PUT) and asynchronous AJAX data flows, optimizing data handling across hybrid application platforms.",
+      "Established testing standards by implementing end-to-end (E2E) and component-level unit testing to ensure high software reliability."
     ],
   },
   {
@@ -103,35 +104,43 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
-    title: "Headless Commerce Storefront",
+    title: "Grassrootscoop",
     description:
-      "A blazing-fast headless e-commerce experience built on a Shopify backend with a custom React storefront, cart, and checkout flow.",
-    tags: ["React", "TypeScript", "Shopify", "GraphQL", "Tailwind"],
-    demo: "#",
-    repo: "#",
+      "Grass Roots Farmers' Cooperative is a farmer-owned e-commerce site built on Shopify Plus that delivers pasture-raised, 100% regenerative meats directly to consumers.",
+    tags: ["Shopify", "Vanilla Js", "Tailwind", "Shopify Liquid"],
+    demo: "https://grassrootscoop.com/",
+    repo: "",
   },
   {
-    title: "SaaS Analytics Dashboard",
+    title: "Puppyspot",
     description:
-      "A responsive analytics dashboard with real-time charts, role-based access, and a themeable design system for a B2B SaaS platform.",
-    tags: ["Next.js", "TypeScript", "REST APIs", "Tailwind"],
-    demo: "#",
-    repo: "#",
+      "PuppySpot is an online marketplace connecting vetted dog breeders with prospective owners across the US, it's built with React and JavaScript, running on Node.js with server-side technologies like PHP and Go, integrated with modern cloud infrastructure and API services.",
+    tags: ["VanillaJs", "ReactJS", "TypeScript", "REST APIs"],
+    demo: "https://www.puppyspot.com/",
+    repo: "",
   },
   {
-    title: "Enterprise Component Library",
+    title: "Todaytix",
     description:
-      "A documented, accessible component library and design tokens system used across multiple internal enterprise applications.",
+      "It is a ticket discovery and booking platform for theater, musicals, and live events. Its web app is built using Next.js (React Framework), React, TypeScript, GraphQL, Node.js APIs, and Tailwind CSS on the frontend.",
     tags: ["React", "TypeScript", "Storybook", "Testing"],
-    demo: "#",
-    repo: "#",
+    demo: "https://www.todaytix.com/",
+    repo: "",
   },
   {
-    title: "Vue Marketing Platform",
+    title: "White&Case",
     description:
-      "A modular marketing site builder in Vue.js with CMS integration, letting non-technical teams ship landing pages independently.",
-    tags: ["Vue.js", "JavaScript", "Drupal", "Responsive UI"],
-    demo: "#",
-    repo: "#",
+      "This is the official page for global law firm White & Case LLP (Melbourne office), providing corporate legal services in M&A, finance, and arbitration.  Built using JavaScript, HTML5/CSS3, and typically powered by Drupal (PHP)",
+    tags: ["JavaScript", "Drupal", "Responsive UI"],
+    demo: "https://www.whitecase.com/",
+    repo: "",
+  },
+  {
+    title: "Encyclopedia",
+    description:
+      "A modular marketing site builder in JavaScript with CMS integration, letting non-technical teams ship landing pages independently.",
+    tags: ["JavaScript", "Drupal", "Responsive UI"],
+    demo: "https://www.encyclopedia.com/",
+    repo: "",
   },
 ]
